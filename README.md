@@ -1,3 +1,3 @@
-= Blorgh
+## Rails Engine based on the Rails Guides
 
-This project rocks and uses MIT-LICENSE.
+This engine is called Blorgh
