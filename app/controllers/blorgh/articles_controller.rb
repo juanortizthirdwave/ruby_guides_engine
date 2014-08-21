@@ -44,6 +44,7 @@ module Blorgh
 
     # DELETE /articles/1
     def destroy
+      puts "IN destroy!!!!"
       @article.destroy
       redirect_to articles_url, notice: 'Article was successfully destroyed.'
     end
