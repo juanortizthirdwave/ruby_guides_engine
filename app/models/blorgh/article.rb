@@ -3,6 +3,7 @@ module Blorgh
     attr_accessor :author_name
     #this way we don't hard code the class name of the author
     belongs_to :author, class_name: Blorgh.author_class.to_s
+    
     before_save :set_author
     has_many :comments
 
